@@ -1,0 +1,71 @@
+apiVersion: v1
+entries:
+  eventBrokerSink:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-02-21T03:11:48.0474137Z"
+    description: A Helm chart for deploying the EventBrokerSink Application.
+    digest: 950563d998e520d8f67e1442f389a738595a29ed9344e2ba5115a62575ea0454
+    name: eventBrokerSink
+    type: application
+    urls:
+    - https://github.com/ashish6913/GitOps-PoC/eventBrokerSink-0.1.0.tgz
+    version: 0.1.0
+  eventBrokerSource:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-02-21T03:11:48.0553395Z"
+    description: A Helm chart for Kubernetes
+    digest: 4edc14415ba48871b58e4c9b3f6f1d425632af904bc04cbf2a4a75684a846e4a
+    name: eventBrokerSource
+    type: application
+    urls:
+    - https://github.com/ashish6913/GitOps-PoC/eventBrokerSource-0.1.0.tgz
+    version: 0.1.0
+  jsonStorage:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-02-21T03:11:48.0623147Z"
+    description: A Helm chart for deploying the jsonStorage Application
+    digest: ee84e24c2be462ce59f45faf43b5b5d1160444b83ac49525873cffd3b131721e
+    name: jsonStorage
+    type: application
+    urls:
+    - https://github.com/ashish6913/GitOps-PoC/jsonStorage-0.1.0.tgz
+    version: 0.1.0
+  pubsubplus-openshift-dev:
+  - annotations:
+      charts.openshift.io/name: PubSub+ Event Broker for Developers
+    apiVersion: v2
+    created: "2023-02-21T03:11:48.0723753Z"
+    description: Deploy a minimum footprint single-node non-HA Solace PubSub+ Event
+      Broker Software on OpenShift for development purposes
+    digest: 05a1d235c348b0884314d4f42b8d7895c14028e1e87588d81fc1c166254cfe51
+    home: https://dev.solace.com
+    icon: https://solaceproducts.github.io/pubsubplus-kubernetes-quickstart/images/PubSubPlus.png
+    keywords:
+    - solace
+    - pubsubplus
+    - pubsub+
+    - pubsub
+    - messaging
+    - advanced event broker
+    - event broker
+    - event mesh
+    - event streaming
+    - data streaming
+    - event integration
+    - middleware
+    kubeVersion: '>= 1.10.0-0'
+    maintainers:
+    - name: Solace Community Forum
+      url: https://solace.community/
+    - name: Solace Support
+      url: https://solace.com/support/
+    name: pubsubplus-openshift-dev
+    sources:
+    - https://github.com/SolaceProducts/pubsubplus-kubernetes-quickstart
+    urls:
+    - https://github.com/ashish6913/GitOps-PoC/pubsubplus-openshift-dev-3.1.0.tgz
+    version: 3.1.0
+generated: "2023-02-21T03:11:48.0383684Z"
