@@ -21,7 +21,7 @@ spec:
       imagePullSecrets:
       - name: artifactory-secret
       containers:
-      - image: artifactory-artifactory.apps.xnkpeyx0.canadacentral.aroapp.io/gitops-local/event-broker-source:latest
+      - image: artifactory-artifactory.apps.xnkpeyx0.canadacentral.aroapp.io/gitops-local/event-broker-source:argocd
         name: event-broker-source
         env:
             - name: HOST
